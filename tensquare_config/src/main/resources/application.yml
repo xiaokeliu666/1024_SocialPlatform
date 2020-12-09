@@ -1,0 +1,12 @@
+server:
+  port: 12000
+
+spring:
+  application:
+    name: tesnqaure-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/xiaokeliu666/1024-config.git
+          default-label: main
