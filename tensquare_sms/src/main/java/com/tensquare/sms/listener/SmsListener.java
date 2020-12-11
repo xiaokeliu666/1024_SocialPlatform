@@ -12,8 +12,8 @@ public class SmsListener {
 
     @RabbitHandler
     public void executeSms(Map<String,String> map){
-        System.out.println("手机号："+ map.get("mobile"));
-        System.out.println("验证码："+ map.get("checkcode"));
+        System.out.println("mobile:"+ map.get("mobile"));
+        System.out.println("checkcode:"+ map.get("checkcode"));
 
     }
 }
