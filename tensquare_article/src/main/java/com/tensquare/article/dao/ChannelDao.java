@@ -5,10 +5,10 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 
 import com.tensquare.article.pojo.Channel;
 /**
- * 数据访问接口
+ * Channel Data Access
  * @author Administrator
  *
  */
 public interface ChannelDao extends JpaRepository<Channel,String>,JpaSpecificationExecutor<Channel>{
-	
+
 }

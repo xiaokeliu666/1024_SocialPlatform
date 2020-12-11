@@ -5,10 +5,10 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 
 import com.tensquare.article.pojo.Column;
 /**
- * 数据访问接口
+ * Column Data Access
  * @author Administrator
  *
  */
 public interface ColumnDao extends JpaRepository<Column,String>,JpaSpecificationExecutor<Column>{
-	
+
 }
