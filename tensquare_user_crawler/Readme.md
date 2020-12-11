@@ -1,4 +1,4 @@
-# Article Crawler
+# User Crawler
 ## Introduction
 This module crawls user data(avatar, username) from CSDN(a developer community in China) and store the data in local directory. This will be used as the initial mocking data for page rendering
 ## Techstack
