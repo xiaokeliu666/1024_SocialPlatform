@@ -1,0 +1,6 @@
+ai:
+#  wordLib after merging
+  wordLib: e:\\article.txt
+  dataPath: e:\\article
+#  vector model
+  vecModel: e:\\article.vecmodel
