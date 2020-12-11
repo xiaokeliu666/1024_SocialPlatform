@@ -22,7 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fca572d-9563-4263-9eeb-bf057f7ee89b" name="Default Changelist" comment="Initial" />
+    <list default="true" id="4fca572d-9563-4263-9eeb-bf057f7ee89b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +37,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -65,27 +72,48 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tensquare_common/src/main/java/util" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="file.status.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\tensquare_parent52\tensquare_common\src\main\java\util" />
+      <recent name="D:\Project\tensquare_parent52\tensquare_user_crawler\src\main\java\com\tensquare\usercrawler" />
+      <recent name="D:\Project\tensquare_parent52\tensquare_article_crawler\src\main\java\com\tensquare\articlecrawler" />
       <recent name="D:\Project\tensquare_parent52\tensquare_config\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.BaseApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.EurekaServer">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="localhost:8888" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8888">
+      <method v="2" />
+    </configuration>
+    <configuration name="ArticleCrawlerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="tensquare_article_crawler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tensquare.articlecrawler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.articlecrawler.ArticleCrawlerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,39 +157,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="tensquare_qa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tensquare.qa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.qa.QaApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="tensquare_search" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tensquare.search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.search.SearchApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ArticleCrawlerApplication" />
+        <item itemvalue="Spring Boot.EurekaServer" />
+        <item itemvalue="JavaScript Debug.localhost:8888" />
         <item itemvalue="Spring Boot.BaseApplication" />
         <item itemvalue="Spring Boot.ConfigApplication" />
-        <item itemvalue="Spring Boot.EurekaServer" />
-        <item itemvalue="Spring Boot.QaApplication" />
-        <item itemvalue="Spring Boot.SearchApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +177,10 @@
       <updated>1607395729931</updated>
       <workItem from="1607395734216" duration="8661000" />
       <workItem from="1607453938026" duration="15508000" />
-      <workItem from="1607490069471" duration="933000" />
+      <workItem from="1607490069471" duration="1396000" />
+      <workItem from="1607541821596" duration="596000" />
+      <workItem from="1607552640190" duration="23863000" />
+      <workItem from="1607618455888" duration="2778000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1607489664604</created>
@@ -184,7 +189,77 @@
       <option name="project" value="LOCAL" />
       <updated>1607489664604</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Article Classification">
+      <created>1607649048876</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607649048876</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Crawl article data from CSDN">
+      <created>1607649219504</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607649219504</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Crawl user data from CSDN">
+      <created>1607649258037</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607649258037</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Delete fussy comment">
+      <created>1607649301641</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607649301641</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added util for file operation">
+      <created>1607649336975</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607649336975</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added util for extracting content from HTML">
+      <created>1607649375311</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607649375311</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Text Segmentation Util">
+      <created>1607649410764</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607649410764</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Download from url">
+      <created>1607649444818</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607649444818</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updated dependencies">
+      <created>1607649488930</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607649488930</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updated Listener">
+      <created>1607649528385</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607649528385</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +280,17 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+    <MESSAGE value="Article Classification" />
+    <MESSAGE value="Crawl article data from CSDN" />
+    <MESSAGE value="Crawl user data from CSDN" />
+    <MESSAGE value="Delete fussy comment" />
+    <MESSAGE value="Added util for file operation" />
+    <MESSAGE value="Added util for extracting content from HTML" />
+    <MESSAGE value="Text Segmentation Util" />
+    <MESSAGE value="Download from url" />
+    <MESSAGE value="Updated dependencies" />
+    <MESSAGE value="Updated Listener" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
     <state x="662" y="301" key="#Assign_Data_Sources" timestamp="1607401600011">
@@ -216,61 +301,85 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="101" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1607401585210" />
-    <state x="34" y="48" key="FileChooserDialogImpl" timestamp="1607490346446">
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1607572852180">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="34" y="48" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607490346446" />
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1607572852180" />
+    <state x="345" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1607582943259">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="345" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1607582943259" />
+    <state x="34" y="48" key="FileChooserDialogImpl" timestamp="1607491271579">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="34" y="48" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607491271579" />
     <state x="409" y="335" key="Github.ShareDialog" timestamp="1607490788345">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="409" y="335" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1607490788345" />
-    <state width="1493" height="176" key="GridCell.Tab.0.bottom" timestamp="1607489889208">
+    <state width="1493" height="329" key="GridCell.Tab.0.bottom" timestamp="1607586988600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="176" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607489889208" />
-    <state width="1493" height="176" key="GridCell.Tab.0.center" timestamp="1607489889208">
+    <state width="1493" height="329" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607586988600" />
+    <state width="1493" height="329" key="GridCell.Tab.0.center" timestamp="1607586988600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="176" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607489889208" />
-    <state width="1493" height="176" key="GridCell.Tab.0.left" timestamp="1607489889208">
+    <state width="1493" height="329" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607586988600" />
+    <state width="1493" height="329" key="GridCell.Tab.0.left" timestamp="1607586988599">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="176" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607489889208" />
-    <state width="1493" height="176" key="GridCell.Tab.0.right" timestamp="1607489889208">
+    <state width="1493" height="329" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607586988599" />
+    <state width="1493" height="329" key="GridCell.Tab.0.right" timestamp="1607586988600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="176" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607489889208" />
-    <state width="1493" height="176" key="GridCell.Tab.1.bottom" timestamp="1607489889208">
+    <state width="1493" height="329" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607586988600" />
+    <state width="1493" height="329" key="GridCell.Tab.1.bottom" timestamp="1607586988600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="176" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607489889208" />
-    <state width="1493" height="176" key="GridCell.Tab.1.center" timestamp="1607489889208">
+    <state width="1493" height="329" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607586988600" />
+    <state width="1493" height="329" key="GridCell.Tab.1.center" timestamp="1607586988600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="176" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1607489889208" />
-    <state width="1493" height="176" key="GridCell.Tab.1.left" timestamp="1607489889208">
+    <state width="1493" height="329" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1607586988600" />
+    <state width="1493" height="329" key="GridCell.Tab.1.left" timestamp="1607586988600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="176" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1607489889208" />
-    <state width="1493" height="176" key="GridCell.Tab.1.right" timestamp="1607489889208">
+    <state width="1493" height="329" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1607586988600" />
+    <state width="1493" height="329" key="GridCell.Tab.1.right" timestamp="1607586988600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="176" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1607489889208" />
-    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1607481400234">
+    <state width="1493" height="329" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1607586988600" />
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1607586987913">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1607481400234" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1607490315451">
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607586987913" />
+    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1607586987913">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607490315451" />
+    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1607586987913" />
+    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1607586987913">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1607586987913" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1607586987913">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1607586987913" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1607584991063">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1607584991063" />
+    <state x="442" y="113" key="SettingsEditor" timestamp="1607646790695">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="442" y="113" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607646790695" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607489763252">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607489763252" />
-    <state x="356" y="0" key="new project wizard" timestamp="1607480969323">
+    <state x="240" y="15" key="new project wizard" timestamp="1607575029978">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="356" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1607480969323" />
+    <state x="240" y="15" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1607575029978" />
   </component>
 </project>
