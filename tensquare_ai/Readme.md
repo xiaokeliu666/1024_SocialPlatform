@@ -19,4 +19,4 @@ Since I only created three categories here, the result may vary in the future as
 
 When I programmed and tested this module, I only crawled hundreds of article as my training set which is obviously not enough. So, the model can be improved with more training set:
 1. Run the crawler for longer time to download more articles.
-2. Keep the crawler service on and set schedule to run which I already done in [ArticleCrawler module](https://github.com/xiaokeliu666/1024_SocialPlatform/tree/xiaoke/tensquare_article_crawler)
+2. Keep the crawler service on and set schedule to run periodically which I already done in [ArticleCrawler module](https://github.com/xiaokeliu666/1024_SocialPlatform/tree/xiaoke/tensquare_article_crawler)
